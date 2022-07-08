@@ -15,7 +15,7 @@
         <label for="message" class="block mb-2 text-md font-medium mt-5">Message</label>
         <textarea id="message" rows="4" class="block p-2.5 w-full text-sm border border-2" required></textarea>
         </div>
-        <button type="submit" class="w-full bg-sky-300 p-2 mt-5">submit</button>
+        <button type="submit" class="w-full bg-sky-300 p-2 mt-5 uppercase font-bold hover:bg-sky-800 hover:text-white">submit</button>
     </form>
   </div>
 </template>

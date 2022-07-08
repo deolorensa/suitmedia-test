@@ -1,11 +1,21 @@
 <template>
   <div>
-      <hooper :settings="hooperSettings" style="height: 100%">
+      <hooper :infiniteScroll="true" :settings="hooperSettings" style="height: 100%">
         <slide >
-        <img  src="../assets/bg.jpg" alt="">
+          <div class="relative">
+            <img  src="../assets/bg.jpg" alt="">
+            <div class=" absolute bottom-40 left-40">
+              <p class="bg-black opacity-70 text-white text-3xl font-bold max-w-2xl uppercase p-3">this is a place where technology & creativity fused into digital chemistry</p>
+            </div>
+          </div>
         </slide>
-        <slide>
-        <img src="../assets/about-bg.jpg" alt="">
+        <slide >
+          <div class="relative">
+            <img  src="../assets/about-bg.jpg" alt="">
+            <div class=" absolute bottom-40 left-40">
+              <p class="bg-black opacity-70 text-white text-3xl font-bold max-w-2xl uppercase p-3">we dont have the best but we have greatest team</p>
+            </div>
+          </div>
         </slide>
         <hooper-navigation slot="hooper-addons"></hooper-navigation>
         <hooper-pagination slot="hooper-addons"></hooper-pagination>
